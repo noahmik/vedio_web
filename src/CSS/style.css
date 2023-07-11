@@ -73,11 +73,14 @@ header.icon .fa-search {
 body > .info {
     padding: var(--padding);
 }
-
+.metadata{
+    margin: 15px;
+}
 .info .metadata .hashtags {
     display: flex;
     font-size: var(--font-small);
     color: var(--padding);
+    margin: 7px 0;
 }
 
 .info .metadata .hashtags li {
@@ -95,6 +98,8 @@ body > .info {
     -webkit-line-clamp: 2;
     overflow: hidden;
     margin-right: var(--padding);
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
 .info .metadata .titleAndButton .moreBtn {
@@ -127,14 +132,16 @@ body > .info {
 
 .main_img {
     display: flex;
-    height: 350px;
-    width: 480px;
+    height: 330px;
+    width: 470px;
     margin-right: 20px;
 }
 
 .main_part {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 20px;
 }
 
 h2 {
@@ -143,4 +150,20 @@ h2 {
  
 .main_section {
     margin-bottom: 20px;
+}
+
+.gray {
+    color: #909090;
+}
+
+.right {
+    display: flex;
+
+}
+
+.right_i {
+    margin-left: 10px;
+    text-decoration: none;
+    
+
 }
