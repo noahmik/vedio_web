@@ -70,7 +70,7 @@ header.icon .fa-search {
     max-width: 1000px;
 }
 
-.info {
+body > .info {
     padding: var(--padding);
 }
 
@@ -104,4 +104,18 @@ header.icon .fa-search {
 .info .views {
     font-size: var(--font-small);
     color: var(--grey-dark-color);
+}
+
+.imgSize {
+    height: 300px;
+    width: 500px;
+}
+
+.videoSize {
+    height: 300px;
+    width: 1200px;
+}
+
+#clicked {
+    background-color: var(--grey-light-color);
 }
