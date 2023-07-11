@@ -3,14 +3,15 @@ var clicked2 = document.querySelector('#clicked2');
 var clicked3 = document.querySelector('#clicked3');
 var clicked4 = document.querySelector('#clicked4');
 var clicked5 = document.querySelector('#clicked5');
-var clicked5 = document.querySelector('#clicked5');
 var clicked6 = document.querySelector('#clicked6');
-console.log(clicked6);
 var sub = document.querySelector('#sub');
+
+console.log(clicked6);
 
 function onHandleClick(){
     const change = prompt("이름을 입력해주세요");
-    clicked6.innerText=change; 
+    clicked6.innerText=change+"님 환영합니다."; 
+    change
     console.log("작동됨");
 }
 
