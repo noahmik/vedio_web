@@ -119,3 +119,28 @@ body > .info {
 #clicked {
     background-color: var(--grey-light-color);
 }
+
+.titles {
+    text-decoration: none;
+    color: white;
+}
+
+.main_img {
+    display: flex;
+    height: 350px;
+    width: 480px;
+    margin-right: 20px;
+}
+
+.main_part {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    display: flex;
+}
+ 
+.main_section {
+    margin-bottom: 20px;
+}
