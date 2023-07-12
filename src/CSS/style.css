@@ -39,9 +39,10 @@ button:focus {
 header {
     display: flex;
     justify-content: space-between;
-    padding: var(--padding);
+    padding: 15px;
     background-color: var(--black-color);
     color: var(--white-color);
+    
 }
 header .logo {
     font-size: var(--font-large);
@@ -142,6 +143,7 @@ body > .info {
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 h2 {

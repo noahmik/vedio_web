@@ -6,18 +6,29 @@ var clicked5 = document.querySelector('#clicked5');
 var clicked6 = document.querySelector('#clicked6');
 var sub = document.querySelector('#sub');
 
-console.log(clicked6);
+// console.log(clicked2);
 
-function onHandleClick(){
-    const change = prompt("이름을 입력해주세요");
-    clicked6.innerText=change+"님 환영합니다."; 
-    change
-    console.log("작동됨");
+// function onHandleClick(){
+//     const change = prompt("이름을 입력해주세요");
+//     clicked6.innerText=change+"님 환영합니다."; 
+//     change
+//     console.log("작동됨");
+// }
+// clicked6.addEventListener("click", onHandleClick);
+
+// clicked6.onclick = function(){
+//     const change = prompt("이름을 입력해주세요");
+//     clicked6.innerText=change+"님 환영합니다."; 
+//     console.log("작동됨");
+// }
+
+function login() {
+    const Id = prompt("이름을 입력해주세요.")
+    clicked6.innerText=Id+"님 환영합니다."
+    console.log("로그인 작동됨")
 }
 
-
-clicked6.addEventListener("click", onHandleClick);
-
+console.log(clicked6)
 
 var now_1 = 1  
 var now_2 = 1   
@@ -47,6 +58,7 @@ clicked2.onclick = function(){
         now_2 = 1;
     }
     }
+
 clicked3.onclick = function(){
     if(now_3== 1){
         clicked3.style.backgroundColor = "red";
@@ -92,3 +104,7 @@ sub.onclick = function(){
         now_6 = 1;
     }
     }
+    
+
+
+
